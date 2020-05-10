@@ -1,0 +1,19 @@
+.wrap_img {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    object-fit: contain;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(0, 0, 0, 1);
+    box-shadow:         0px 0px 30px 0px rgba(0, 0, 0, 1);
+    z-index: 1;
+}
+.wrap_img img {
+    position: absolute;
+    min-width: 100%;
+    /* height: 100%; */
+    left: 50%;
+    top: 55%;
+    transform: translate( -50%, -50%);
+}

@@ -1,0 +1,13 @@
+.content { 
+    grid-area: content;
+    background: rgb(9,3,32);
+    background: -moz-linear-gradient(0deg, rgba(9,3,32,1) 0%, rgba(41,65,70,1) 50%, rgba(54,102,112,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(9,3,32,1) 0%, rgba(41,65,70,1) 50%, rgba(54,102,112,1) 100%);
+    background: linear-gradient(0deg, rgba(9,3,32,1) 0%, rgba(41,65,70,1) 50%, rgba(54,102,112,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090320",endColorstr="#366670",GradientType=1);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(0, 0, 0, 1);
+    box-shadow:         0px 0px 30px 0px rgba(0, 0, 0, 1);
+    position: relative;
+    z-index: 1;
+}
