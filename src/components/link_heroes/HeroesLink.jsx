@@ -1,12 +1,13 @@
 import React from 'react';
 import s from './Heroes.module.css';
+import { Link } from 'react-router-dom';
 
 
 const HeroesLink = (props) => {
-    return (
-        <a href='#s' className={`${s.link} ${s.active}`}>
+    return ( 
+        <Link to={props.name} className={`${s.link} ${s.active}`}>
             {props.name}
-        </a>
+        </Link>
     )
 }
 

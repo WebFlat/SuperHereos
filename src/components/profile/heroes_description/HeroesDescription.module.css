@@ -1,8 +1,8 @@
 .text {
-    padding: 15px 25px;
+    padding: 20px 10%;
     color: #fff;
     font-family: 'Open Sans', sans-serif;  
-    
+    text-align: justify;
 }
 .text span {
     text-transform: uppercase;
