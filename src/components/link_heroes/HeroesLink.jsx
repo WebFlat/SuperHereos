@@ -1,15 +1,15 @@
 import React from 'react';
 import s from './Heroes.module.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 const HeroesLink = (props) => {
     return ( 
-        <Link to={props.name} className={`${s.link} ${s.active}`}>
-            {props.name}
-        </Link>
+        <NavLink to={props.name} className={s.link} activeClassName={s.activeNavLink}>
+            <img src={props.logo} alt='logo'/> {props.name}
+        </NavLink>
     )
-}
+} 
 
 
 export default HeroesLink;
