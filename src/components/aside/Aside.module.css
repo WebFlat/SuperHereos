@@ -3,11 +3,11 @@
   height: 100%;
   top: 60px;
   left: 0;
-  width: 320px;
+  width: 520px;
   grid-area: nav; 
   display: flex;
   flex-direction: column;
-  padding: 40px 25px 0 25px;
+  padding: 40px 25px 0 2%;
   background: rgb(1,0,5);
   background: -moz-linear-gradient(180deg, rgba(1,0,5,1) 0%, rgba(35,50,61,1) 65%, rgba(54,102,112,1) 100%);
   background: -webkit-linear-gradient(180deg, rgba(1,0,5,1) 0%, rgba(35,50,61,1) 65%, rgba(54,102,112,1) 100%);
